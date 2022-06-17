@@ -1,16 +1,28 @@
-// ==========================================
-// Opdracht 1. Maak een for-loop die 3 keer "Hoera!" in de terminal logt
-// Verwachte uitkomsten:
-// Hoera!
-// Hoera!
-// Hoera!
-// ==========================================
-
-
-
-// ==========================================
-// Opdracht 2. Maak een for-loop die 4 keer het woord "loop..." logt, en bij de vijfde loop het woord "klaar!"
-// Verwachte uitkomsten:
+// // ==========================================
+// // Opdracht 1. Maak een for-loop die 3 keer "Hoera!" in de terminal logt
+// // Verwachte uitkomsten:
+// const i = 0
+// for (let i = 0; i < 3; i++) {
+//     console.log('Hoera')
+// }
+// // Hoera!
+// // Hoera!
+// // Hoera!
+// // ==========================================
+//
+//
+//
+// // ==========================================
+// // Opdracht 2. Maak een for-loop die 4 keer het woord "loop..." logt, en bij de vijfde loop het woord "klaar!"
+// // Verwachte uitkomsten:
+// const e = 0
+// for (let e = 0; e < 5; e++) {
+//     if (e < 4) {
+//         console.log('loop...')
+//     } if (e >= 4) {
+//         console.log('klaar!')
+//     }
+// }
 // loop...
 // loop...
 // loop...
@@ -23,6 +35,14 @@
 // ==========================================
 // Opdracht 3. Maak een for-loop die van 0 tot 15 loopt. Voor ieder getal wordt in de console gelogd of het getal even of oneven is.
 // Verwachte uitkomsten:
+// const f = 0
+// for (let f = 0; f < 16; f++) {
+//     if (f % 2){
+//         console.log(f + ' is oneven')
+//     } else {
+//         console.log(f + ' is even')
+//     }
+// }
 // 0 is even
 // 1 is oneven
 // 2 is even
@@ -39,6 +59,18 @@
 // [BONUSOPDRACHT] - optioneel: maak een for-loop die van 0 tot 9 loopt en de getallen 0 tot 9 logt.
 // Echter, vanaf het getal 3 komt er een > voor ieder getal te staan, en vanaf het getal 6 komt er >> voor ieder getal te staan.
 // Verwachte uitkomsten:
+//
+// for (f = 0; f < 10; f++) {
+//     if (f < 4) {
+//         console.log(f)
+//     } else if (f < 7) {
+//         console.log('>' + f)
+//     } else {
+//         console.log('>>' + f)
+//     }
+// }
+
+
 // 0
 // 1
 // 2
